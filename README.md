@@ -145,26 +145,6 @@ ŷ = Wavenet.wavenet_evaluate(Wavelet, w, [c.w for c in cands_tr], hcat(c.t for
 
 ---
 
-## 📚 Reference
-
-If you use this package in academic work, please cite:
-
-```
-@article{zhang1997wavelet,
-  title={Using wavelet network in nonparametric estimation},
-  author={Zhang, Qinghua},
-  journal={IEEE Transactions on Neural Networks},
-  volume={8},
-  number={2},
-  pages={227--236},
-  year={1997},
-  publisher={IEEE},
-  doi={10.1109/72.557660}
-}
-```
-
----
-
 ## 📌 Notes
 
 - Current implementation is CPU-only but threaded in core routines.  
